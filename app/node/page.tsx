@@ -13,8 +13,41 @@ const data = [
     id: 3,
     name: "Äskil",
   },
+  {
+    id: 4,
+    name: "Åtvidaberg",
+  },
+  {
+    id: 5,
+    name: "Östergötland",
+  },
+  {
+    id: 6,
+    name: "Österrike",
+  },
+  {
+    id: 7,
+    name: "Österlen",
+  },
+  {
+    id: 8,
+    name: "Östersund",
+  },
+  {
+    id: 9,
+    name: "Östhammar",
+  },
+  {
+    id: 10,
+    name: "Östergötland",
+  },
+  { id: 11, name: "Ellingsås" },
+  { id: 12, name: "Enebyberg" },
+  { id: 13, name: "Enköping" },
+  { id: 14, name: "Enskede" },
+  { id: 15, name: "Södermalm" },
+  { id: 16, name: "Södertälje" },
 ];
-
 export default function Node() {
   return (
     <div className="mx-auto w-1/4">
