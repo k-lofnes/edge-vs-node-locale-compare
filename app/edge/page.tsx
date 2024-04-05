@@ -7,11 +7,11 @@ const data = [
   },
   {
     id: 2,
-    name: "Øresund",
+    name: "Öresund",
   },
   {
     id: 3,
-    name: "Ærø",
+    name: "Äskil",
   },
 ];
 
@@ -21,7 +21,7 @@ export default function Edge() {
       <ul className="flex flex-col gap-4">
         {data
           ?.sort((a, b) =>
-            a.name.localeCompare(b.name, "no", {
+            a.name.localeCompare(b.name, "se", {
               sensitivity: "base",
             })
           )
