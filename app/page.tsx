@@ -10,7 +10,7 @@ export default function Home() {
             the data running either edge or node. The sort function is not
             working as escpected running edge.
           </h1>
-          <h1 className="font-bold">Sorting should be "Æ-Ø-Å"</h1>
+          <h1 className="font-bold">Sorting should be Æ-Ø-Å</h1>
         </div>
         <div className="flex flex-row gap-4">
           <Link
